@@ -1,0 +1,35 @@
+<div id="grupo1">
+  <a class="links" id="youtube" href="https://www.youtube.com/feed/subscriptions">Youtube</a>
+  <a class="links" id="devianart"href="http://www.deviantart.com/browse/all/?columns=2">Deviantart</a>
+  <a class="links" id="tumblr" href="https://www.tumblr.com/dashboard" >Tumblr</a>
+  <a class="links" id="gmail" href="https://mail.google.com/mail/u/0/?tab=wm#inbox">Gmail</a>
+  <a class="links" id="chan" href="http://4chan.org">4chan</a>
+</div>
+
+<div id="grupo2">
+  <a class="links" id="animeflv" href="http://animeflv.me/">Animeflv.me</a>
+  <a class="links" id="kissmanga" href="http://kissmanga.com/MangaList">Kissmanga</a>
+  <a class="links" id="myanimelist" href="https://myanimelist.net/">MyAnimeList</a>
+  <a class="links" id="nyaa" href="https://www.nyaa.se/">nyaa.se</a>
+</div>
+
+<div id="grupo3">
+  <a class="links" id="elite" href="http://www.elitetorrent.net/">EliteTorrent</a>
+  <a class="links" id="extra" href="http://extratorrent.cc/">ExtraTorrent</a>
+  <a class="links" id="tproject" href="https://torrentproject.se/">TorrentProject</a>
+  <a class="links" id="leet" href="http://1337x.to/">L337x</a>
+</div>
+
+<div id="grupo4"
+  <a class="links" id="animew" href="http://boards.4chan.org/w/">/w/</a>
+  <a class="links" id="wgeneral" href="http://boards.4chan.org/wg/">/wg/</a>
+  <a class="links" id="anime" href="http://boards.4chan.org/a/">/a/</a>
+  <a class="links" id="technology" href="http://boards.4chan.org/g/">/g/</a>
+</div>
+
+<div id="grupo4"
+  <a class="links" id="animew" href="http://boards.4chan.org/w/">Anime wallpapers</a>
+  <a class="links" id="wgeneral" href="http://boards.4chan.org/wg/">Wallpapers general</a>
+  <a class="links" id="anime" href="http://boards.4chan.org/a/">Anime</a>
+  <a class="links" id="technology" href="http://boards.4chan.org/g/">Technology</a>
+</div>

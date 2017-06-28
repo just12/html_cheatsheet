@@ -1,0 +1,104 @@
+﻿PLANTILLA ######################
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <link href="" rel="stylesheet" type="text/css"/>      
+</head>
+    
+<body>
+    
+</body>
+</html>
+
+################################
+
+########FUENTES EXTERNAS########
+
+(css)
+@font-face{font-family: NOMBREDELAFUENTE; src: url('FUENTE.ttf')}
+
+################################
+
+COLOR DE SELECCIÓN(css) ########
+
+::selection{background: #39c442;}
+
+################################
+
+
+BACKGROUND BLUR ################
+
+
+Easily. On your bg class/id:
+filter: 'url(img/blur.svg#blur)';
+
+Blur.svg:
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+<filter id="blur">
+<feGaussianBlur stdDeviation="5" />
+<feComponentTransfer>
+<feFuncA type="discrete" tableValues="1 1"/>
+</feComponentTransfer>
+</filter>
+</svg>
+
+################################
+
+FONDO FIJO #####################
+
+background-image: url(src/Yuri%20Shwedoff%201.png);
+background-size: cover;    
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+
+################################
+
+COLORES PREDETERMINADOS ########
+
+:root {
+--bg: #1d1e2a !important;
+--bg2: #1a1b26 !important;
+--bg-dark: #14151F !important;
+--bg3: rgba(20,21,31,0.89) !important;
+--c1: #888 !important;
+--c2: #74857c !important;
+--c3: #556b82 !important;
+}
+
+asadasa{background-color: var(--bg);}
+
+################################
+
+FAVICON ########################
+
+<link rel="icon" href="./src/favicon.png" type="image/png" sizes="128x128">
+
+################################
+
+CSS calc #######################
+
+height: calc(100% - 38px);
+
+################################
+
+Transición suave ###############
+
+transition: .18s cubic-bezier(1, 0, 0, 1);
+
+################################
+
+Poligonos con css ##############
+
+
+clip-path: polygon(0 0,100% 10%,100% 100%,0 90%);
+
+################################
+
+box-shadow #####################
+
+box-shadow: 26px 15px 15px rgba(0, 0, 0, 0.15), -26px 15px 15px rgba(0, 0, 0, 0.15);
+
+################################

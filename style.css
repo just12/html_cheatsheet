@@ -1,0 +1,122 @@
+:root{
+  --c1: #131C1C;
+  --c2: #274340;
+  --c3: #69736D;
+  --c4: #9EA5A1;
+  --c5: #10736E;
+  --c6: #4AA29D;
+}
+
+*{
+  color: #fff;
+  transition: .18s cubic-bezier(1, .7, .2, 1);
+}
+
+body{
+  background-color: var(--c2);
+  margin: 0px;
+}
+
+div.cactus{
+  text-align: center;
+}
+
+div.cactus div.content{
+  background-color: var(--c1);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(src/pictures/jim-flores-289420.jpg);
+}
+
+div.cactus a{
+  background-color: var(--c6);
+  font-family: 'Montserrat';
+  padding: 10px;
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+div.window{
+  display: block;
+  margin: 30px;
+}
+
+div.title{
+  height: 40px;
+  background-color: var(--c6);
+}
+
+a.title{
+  line-height: 40px;
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Montserrat';
+}
+
+div.content{
+  background-color: var(--c1);
+  padding: 30px;
+}
+
+pre.content{
+  font-family: monospace;
+}
+
+div#menu{
+  position: fixed;
+  width: 300px;
+  height: 100%;
+  top: 0px;
+  left: -300px;
+  background-color: transparent;
+  box-shadow: 0px;
+  border-right: 5px solid transparent;
+}
+
+.inandout{
+  left: 0px !important;
+  background-color: var(--c5) !important;
+  box-shadow: 0px 0px 25px 0px rgba(0,0,0,.35) !important;
+}
+
+div#button{
+  position: absolute;
+  top: 10px;
+  right: -60px;
+  width: 50px;
+  height: 50px;
+  background-color: #eee;
+  border-radius: 50%;
+  cursor: pointer;
+  transform: rotate(0deg);
+}
+
+div#button i{
+  color: var(--c2);
+  font-size: 30px;
+  position: absolute;
+  transform: translate(-50%,-50%) rotate(0deg);
+  top: 50%;
+  left: 50%;
+}
+
+div#links{
+  position: absolute;
+  width: calc(100% - 20px);
+  height: calc(100% - 20px);
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
+}
+
+div#links a{
+  display: block;
+  padding: 5px;
+  margin: 5px;
+  text-align: left;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  background-color: var(--c2);
+}
